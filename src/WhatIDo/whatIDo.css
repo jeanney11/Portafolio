@@ -1,0 +1,166 @@
+
+
+/* @import url("https://fonts.googleapis.com/css?family=Cabin:400,700&subset=latin-ext"); */
+ /* Variables
+$body-bgc: lightblue;
+$card-bgc: #3b3a36;
+$card-color: snow; */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* .bodyWhatIdo {
+  background-color: transparent;
+  padding: 1rem;
+  display: flex;
+}
+.cardWhatIdo {
+  max-width: 350px;
+  max-height: 210px;
+  margin: 1rem 1rem;
+  background-color: #3b3a36;
+  padding: 1rem;
+  position: relative;
+}
+.cardWhatIdo:before,
+.cardWhatIdo:after,
+p:before,
+p:after,
+h1:before,
+h1:after {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-color: lightblue;
+  position: absolute;
+}
+.cardWhatIdo:before {
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 100%;
+  box-shadow: -1px -1px lightblue;
+}
+.cardWhatIdo:after {
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100%;
+  box-shadow: 1px 1px lightblue;
+}
+p {
+ 
+  padding: 0.2rem;
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  line-height: 1.20;
+  color: snow;
+}
+p:before {
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 100%;
+  box-shadow: 1px -1px lightblue;
+}
+p:after {
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 100%;
+  box-shadow: -1px 1px lightblue;
+}
+
+ */
+
+
+ /*-------  2 modelo  ------------*/
+
+ 
+ :root {
+  --fir-font-article: "adobe-garamond-pro", "Times New Roman", Times;
+  --fir-font-header: "foco", Helvetica;
+  --fir-blue-twitter-alpha: rgba(85,172,238, 0.6);
+  --fir-color-grey: rgba(0,0,0, 0.40);
+}
+.htmlWhatIDo{
+  margin-top: 10PX;
+}
+
+.bodyWhatIdo{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 30vh;
+}
+
+.fir-clickcircle {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.fir-image-figure {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+  text-decoration: none;
+}
+
+.fir-image-figure .caption, .fir-image-figure figcaption {
+  padding-left: 15px;
+}
+
+.htmlWhatIDo.wf-active .fir-image-figure .fig-author-figure-title {
+  font-family: var(--fir-font-header);
+  font-size: 16px;
+}
+
+.fir-image-figure .fig-author-figure-title {
+  color: var(--fir-color-grey);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.fig-author-figure-title1{
+  color: #bafb66fe;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 2px;
+}
+.fir-imageover {
+  position: relative;
+  display: flex;
+}
+
+.fir-imageover-color {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  background: var(--fir-blue-twitter-alpha);
+  background-image: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background .8s ease-in-out;
+  animation: fadeInFadeOut 6s infinite;
+  top: 0;
+  left: 0;
+}
+
+.fir-imageover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fadeInFadeOut 6s infinite;
+}
+
+@keyframes fadeInFadeOut {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}

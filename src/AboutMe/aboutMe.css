@@ -1,0 +1,172 @@
+
+
+/* $bg-color: #f3f3f3;
+$shadow-color: darken( $bg-color, 25%);
+$button-color: #337AB7;
+$button-shadow-color: darken($button-color, 25%);
+$cursive-font: 'Pacifico', cursive;
+$font-size: 18px; */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.bodyAboout {
+  background-color: #f3f3f3;
+}
+
+.product-cardMe {
+  background-color: transparent;
+  max-width: 100%;
+  min-height: 450px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* box-shadow: 8px 12px 30px #f3f3f3; */
+  color: #f3f9b4d7;
+  font-weight: normal;
+  text-align: left;
+  font-size: 18px;
+  position: relative;
+}
+
+.product-detailsMe {
+  width: 53%;
+  float: left;
+  height: 100%;
+  padding: 10px;
+}
+
+  .product-detailsMe h1 {
+    color: #bafb66fe;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .producto-detailsMe button {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #337AB7;
+    border-radius: 0;
+    color: #fff;
+    box-shadow: 2px 2px 7px #337AB7;
+}
+    
+.producto-detailsMe button:hover, :active, :focus {
+      color: #fff;
+}
+  
+
+
+.product-imageMe {
+  position: absolute;
+  right: 40px;
+  top: -40px;
+}
+
+.product-imageMe  img {
+    max-width: 300px;
+  }
+
+
+@media (max-width: 700px) {
+  .product-cardMe {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+}
+
+@media (max-width: 540px) {
+  .product-cardMe {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .product-detailsMe {
+    width: 60%;
+    z-index: 1;
+  }
+  .product-imageMe {
+    width: 100%;
+    left: 40%;
+    top: -50px;
+  }
+}
+
+@media (max-width: 440px) {
+    .product-detailsMe {
+      width: 65%;
+  }
+}
+
+@media (max-width: 365px) {
+    .product-detailsMe {
+      width: 80%;
+      position: relative;
+      color: #333;
+      background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+
+/* CSS DE LOS TITULOS DE CABECERAS */
+
+/* $avatar-size: 32px;
+$body-background: #353535; */
+
+@font-face {
+	font-family: "ubuntu";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Lato Light Italic"), local("Lato-LightItalic"),
+		url(https://fonts.gstatic.com/s/ubuntucondensed/v8/u-4k0rCzjgs5J7oXnJcM_0kACGMtT-Dfqw.woff2)
+			format("woff2");
+}
+
+.bodyTitle {
+	height: 100vh;
+	margin: 0;
+	background-color: #353535;
+	font-family: "ubuntu", Arial, sans-serif;
+	overflow-x: hidden;
+	display: grid;
+	place-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: #9ca0b1;
+}
+
+.wrapperTitle {
+	text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.TitleHead {
+		color: #ffffff;
+		font-size: 60px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-family: "Josefin Sans", sans-serif;
+		background: linear-gradient(to right,#57d75b 10%, #e3e8a7d7 50%,  #bafb66fe 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 4s linear infinite;
+		display: inline-block;
+	}
+
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}

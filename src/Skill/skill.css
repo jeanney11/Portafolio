@@ -1,0 +1,77 @@
+
+.bodySkill {
+	align-items: center;
+	background: transparent;
+	display: flex;
+	height: 40vh;
+	justify-content: center;
+	margin-top: 1em;
+}
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+/* $animationSpeed: 40s; */
+
+/* // Animation */
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-100px * 5))}
+}
+
+
+/* // Styling */
+.slider {
+	background: transparent;
+	box-shadow: 0 10px 20px -5px rgba(241, 82, 82, 0.125);
+	/* height: 150px; */
+  padding-right: 20px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 960px;
+  /* margin-top: 30px; */
+}
+	
+	
+	.slider::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+
+  .slider::before{
+    content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+    
+  }
+	
+	.slider::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	.slider::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll 20s linear infinite;
+		display: flex;
+		width: calc(200px * 14);
+    align-items: center;
+	}
+	
+	/* .slide {
+		height: 150px;
+		width: 250px;
+	} */

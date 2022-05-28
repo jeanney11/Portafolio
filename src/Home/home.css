@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Smooch&display=swap');
+
+:root {
+    /* --color: #4973ff; */
+    /* --color: #42f4e8; */
+    /* --color: #4bf442; */
+    /* --color: #e5f441; */
+    /* --color: #b555dd; */
+    --color: #bafb66fe;
+    /* --color: #4bf442; */
+    /* --color: rgb(240, 200, 63); */     /*color dorado*/
+
+
+    
+    
+    
+  }
+  
+  .bodyHome {
+    font-size: 16px;
+    font-family: 'Smooch', cursive;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .contentHome {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    
+  }
+
+  .imagenHome{
+   
+  }
+  
+  .heroHome {
+    position: relative;
+    background: #333333;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+
+    
+  }
+  
+  .heroHome h2 {
+    font-family: 'Allura', cursive;
+    position: relative;
+    z-index: 1;
+    font-size: 5rem;
+    margin: 0 0 10px;
+    line-height: 1;
+    color: #f3f9b4d7;
+    
+  }
+  
+  .pHome {
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    color: #f3f9b4d7;
+    line-height: .5;
+  }
+  
+  /* ========================= */
+  
+  .waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 230px;
+    background-color: var(--color);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+    transition: 500ms;
+    
+  }
+  
+  .waves::before,
+  .waves::after {
+    content: '';
+    position: absolute;
+    width: 290vw;
+    height: 290vw;
+    top: -63vw;
+    left: 48%;
+    transform: translate(-50%, -75%);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoe2g9u8XhqvNXQW0tWB11M-_jOkgw4NoS7ITfoSD_F7ZIQSS1Ng8_F7PjYqy6UZTguTY&usqp=CAU");
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    
+  }
+  
+  .waves::before {
+    border-radius: 49%;
+    
+    /* background: rgba(51, 51, 51, 1); */
+    animation: waves 8s linear inherit;
+  }
+  
+  .waves::after {
+    border-radius: 43%;
+    background: rgba(51, 51, 51, 0.5);
+    animation: waves 15s linear infinite;
+  }
+  
+  @keyframes waves {
+    0% {
+      transform: translate(-50%, -75%) rotate(0deg);
+    }
+    
+    100% {
+      transform: translate(-50%, -75%) rotate(360deg);
+    }
+  }
+
+  
+
+  /* ---------------  */
+
+  
