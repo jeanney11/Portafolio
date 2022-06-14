@@ -183,7 +183,7 @@ containerNavbar {
     
 }
 .Logo{
-    width: 80px;
+    width: 60px;
     margin-left: 20px;
 
 }
@@ -205,22 +205,22 @@ containerNavbar {
     transition: all .5s;
 }
 
-.nav-menu .yellow{
+.nav-menu .blueJeanlev{
     display: none;
     line-height: 10px;
     margin: 20px 0;
     transition: all .5s;
 }
 
-.nav-menu .yellow a{
-    color: #bafb66fe;
+.nav-menu .blueJeanlev a{
+    color: rgb(51, 174, 205);
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.nav-menu .yellow a.active, .nav-menu .yellow a:hover{
-    color: #bafb66fe;
+.nav-menu .blueJeanlev a.active, .nav-menu .blueJeanlev a:hover{
+    color: rgb(51, 174, 205);
     transition: .5s;
 }
 
@@ -245,7 +245,7 @@ containerNavbar {
     color: #fff;
 }
 
-.banner-text .yellow{
+.banner-text .blueJeanlev{
     font-size: 50px;
     margin-bottom: 30px;
 }
@@ -261,7 +261,7 @@ containerNavbar {
 
 /* Neon effect when we hover over a link */
 
-.yellow a:hover {
+/* .yellow a:hover {
     color: white;
     text-shadow:
      0 0 5px #f3fe79,
@@ -272,7 +272,21 @@ containerNavbar {
      0 0 90px #f3fe79,
      0 0 100px #f3fe79,
      0 0 150px #f3fe79;
+   } */
+
+   .blueJeanlev a:hover {
+    color: white;
+    text-shadow:
+     0 0 5px rgb(51, 174, 205),
+     0 0 10px rgb(51, 174, 205),
+     0 0 20px rgb(51, 174, 205),
+     0 0 40px rgb(51, 174, 205),
+     0 0 80px rgb(51, 174, 205),
+     0 0 90px rgb(51, 174, 205),
+     0 0 100px rgb(51, 174, 205),
+     0 0 150px rgb(51, 174, 205);
    }
+   
 
 /*--- RESPONSIVE FOR DESKTOP ---*/
 
@@ -300,14 +314,14 @@ containerNavbar {
         z-index: 1;
     }
 
-    .nav-menu .yellow{
+    .nav-menu .blueJeanlev{
         display:inline-block;
         line-height: 50px;
         margin: 0 20px;
         transition: none;
     }
 
-    .nav-menu .yellow a{
+    .nav-menu .blueJeanlev a{
         font-size: 16px;
     }
 

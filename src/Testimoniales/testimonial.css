@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
-.bodyTesti{
+#bodyTesti{
   display: flex;
     justify-content: space-evenly;
     margin-top: 50px;

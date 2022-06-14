@@ -2,15 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Smooch&display=swap');
 
 :root {
-    /* --color: #4973ff; */
-    /* --color: #42f4e8; */
-    /* --color: #4bf442; */
-    /* --color: #e5f441; */
-    /* --color: #b555dd; */
-    --color: #bafb66fe;
-    /* --color: #4bf442; */
+    /* --color: #4973ff;  */                      /* azul medio */
+    /* --color: #42f4e8; */                   /* verde claro */
+    /* --color: rgb(212, 139, 3); */                /* naranja ocre */
+   /*  --color: #ebf66e; */                         /* amarillo */
+   /*  --color: #b555dd;  */                        /* lila */
+    /* --color: #bafb66fe; */                  /* verde */
+    /* --color: #4bf442;  */                          /* verde fluorescente */
     /* --color: rgb(240, 200, 63); */     /*color dorado*/
-
+    /* --color: rgb(192, 192, 192)  */                       /* plateado */
+    --color: rgb(148, 111, 191);
+    --color: rgb(51, 174, 205);
 
     
     
@@ -57,7 +59,7 @@
     font-size: 5rem;
     margin: 0 0 10px;
     line-height: 1;
-    color: #f3f9b4d7;
+    color: rgb(193, 220, 227);
     
   }
   
@@ -65,7 +67,7 @@
     position: relative;
     z-index: 1;
     font-size: 2rem;
-    color: #f3f9b4d7;
+    color: rgb(193, 220, 227);
     line-height: .5;
   }
   
@@ -92,7 +94,7 @@
     top: -63vw;
     left: 48%;
     transform: translate(-50%, -75%);
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoe2g9u8XhqvNXQW0tWB11M-_jOkgw4NoS7ITfoSD_F7ZIQSS1Ng8_F7PjYqy6UZTguTY&usqp=CAU");
+    background-image: url("https://www.incae.edu/sites/default/files/styles/firehose-main-mobile-landscape/public/digital_mkt_01.jpg?itok=GEjdc5Wh");
     /* background-repeat: no-repeat; */
     /* background-position: center center; */
     /* background-size: cover; */

@@ -7,7 +7,7 @@ import Clay from "../Imagenes/Clay.png"
 function AboutMe(){
 
     return(
-        <div className="bodyAbout">
+        <div id="bodyAbout">
           
           <div class="wrapperTitle">
 	        <h1 className="TitleHead">Technical Description</h1>
@@ -18,7 +18,7 @@ function AboutMe(){
   </div>
   <div class="product-detailsMe">
     <h1>About Me</h1>
-    <p>Great product title for a great product and all of the extra things a product might need to make it fill an entire card.</p>
+    <p>Proactiva, dispuesta siempre a iniciar</p>
     {/* <button type="button" class="btn">Buy Now</button> */}
   </div>
 </div>

@@ -8,10 +8,10 @@ function Resumen() {
 
   return (
     <div>
-      <div class="wrapperTitle">
+      <div className="wrapperTitle">
 	        <h1 className="TitleHead">RESUMEN</h1>
           </div>
-  <div className="containerResumen">
+  <div id="containerResumen">
       {/* <a class="made-with" href="http://flkt-crnpio.github.io/pitaya/">made with<br/>pitaya</a> */}
       
       <div>

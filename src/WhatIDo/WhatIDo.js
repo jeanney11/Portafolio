@@ -6,7 +6,7 @@ import './whatIDo.css';
 function WhyIDo(){
 
     return(
-      <div className="htmlWhatIDo">
+      <div id="htmlWhatIDo">
         <div class="wrapperTitle">
 	        <h1 className="TitleHead">WHAT I DO</h1>
           </div>

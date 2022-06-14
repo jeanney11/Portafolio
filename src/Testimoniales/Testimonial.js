@@ -16,7 +16,7 @@ function Testimonial() {
 	        <h1 className="TitleHead">TESTIMONIALS</h1>
         </div>
 
-    <div className="bodyTesti">
+    <div id="bodyTesti">
       <figure class="snip1574">
         <img
           src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample40.jpg"

@@ -3,7 +3,7 @@ import "../MyWork/myWork.css";
 
 function MyWork() {
   return (
-    <div className="bodyWorks">
+    <div id="bodyWorks">
       <div class="wrapperTitle">
         <h1 className="TitleHead">MY WORKS</h1>
       </div>

@@ -11,7 +11,7 @@ $font-size: 18px; */
   box-sizing: border-box;
 }
 
-.bodyAboout {
+#bodyAboout {
   background-color: #f3f3f3;
 }
 
@@ -151,7 +151,7 @@ a {
 		text-transform: uppercase;
 		font-weight: 700;
 		font-family: "Josefin Sans", sans-serif;
-		background: linear-gradient(to right,#57d75b 10%, #e3e8a7d7 50%,  #bafb66fe 60%);
+		background: linear-gradient(to right,rgb(51, 174, 205) 10%, rgb(193, 220, 227) 50%,  rgb(19, 62, 73) 60%);
 		background-size: auto auto;
 		background-clip: border-box;
 		background-size: 200% auto;

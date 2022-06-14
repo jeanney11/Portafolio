@@ -8,9 +8,9 @@ function Contact(){
 
     return(
 
-        <div>
+        <div id="bodyContact">
 <div class="wrapperTitle">
-	        <h1 className="TitleHead">CONTAC US</h1>
+	        <h1 className="TitleHead">CONTACT US</h1>
         </div>
 <div class="background">
   <div class="container">

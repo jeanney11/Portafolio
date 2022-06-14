@@ -27,7 +27,7 @@ function App() {
         <Contact/>
 
         {/* <Footer/> */}
-      <h1>HOLA HOLA</h1>
+      
     </div>
   );
 }

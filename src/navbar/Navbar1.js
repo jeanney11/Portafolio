@@ -1,7 +1,7 @@
 
 import React from "react";
 import '../navbar/navbar.css';
-import LogoJR from "../Imagenes/LogoJR.png"
+import LogoJR8 from "../Imagenes/LogoJR8.png"
 
 
 
@@ -12,20 +12,20 @@ function NavbarRes(){
                 <div className="headerNav">
             <nav className="navNav">
                 <div>
-                    <img src={LogoJR} alt="" className="Logo"/>
+                    <img src={LogoJR8} alt="" className="Logo"/>
                 </div>
                 <input type="checkbox" id="check"/>
                 <label for="check" className="bar-bnt">
                 <i className="fas fa-bars fa-2xl "></i>
                 </label>
                 <ul className="nav-menu">
-                    <li className="yellow"><a className="active" href="#">Home</a></li>
-                    <li className="yellow"><a href="#">About Me</a></li>
-                    <li className="yellow"><a href="#">What I Do</a></li>
-                    <li className="yellow"><a href="#">Resumen</a></li>
-                    <li className="yellow"><a href="#">Portfolio</a></li>
-                    <li className="yellow"><a href="#">Testimonial</a></li>
-                    <li className="yellow"><a href="#">Contact</a></li>
+                    <li className="blueJeanlev"><a className="active" href="#">Home</a></li>
+                    <li className="blueJeanlev"><a href="#bodyAbout">About Me</a></li>
+                    <li className="blueJeanlev"><a href="#htmlWhatIDo">What I Do</a></li>
+                    <li className="blueJeanlev"><a href="#containerResumen">Resumen</a></li>
+                    <li className="blueJeanlev"><a href="#bodyWorks">Portfolio</a></li>
+                    <li className="blueJeanlev"><a href="#bodyTesti">Testimonial</a></li>
+                    <li className="blueJeanlev"><a href="#bodyContact">Contact</a></li>
                 </ul>
             </nav>
             {/* <div className="banner-text">
